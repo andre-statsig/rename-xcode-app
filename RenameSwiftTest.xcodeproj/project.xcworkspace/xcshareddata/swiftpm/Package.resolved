@@ -1,0 +1,15 @@
+{
+  "originHash" : "01da94a2d7cb51114756a9b7d8acb7aed1e1a7da7021bdfe63135370145aefc4",
+  "pins" : [
+    {
+      "identity" : "rename-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andre-statsig/rename-sdk",
+      "state" : {
+        "revision" : "ffb95cff2be4d65394cc13a8cdc7bcb8deb56f7f",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

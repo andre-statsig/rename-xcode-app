@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import RenameKit
 
 struct ContentView: View {
+    init() {
+        greet()
+    }
     var body: some View {
         VStack {
             Image(systemName: "globe")

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2E0615672DDE841400F73A30 /* RenameKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E0615662DDE841400F73A30 /* RenameKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2E0615492DDE823300F73A30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0615672DDE841400F73A30 /* RenameKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = RenameSwiftTest;
 			packageProductDependencies = (
+				2E0615662DDE841400F73A30 /* RenameKit */,
 			);
 			productName = RenameSwiftTest;
 			productReference = 2E0615382DDE823100F73A30 /* RenameSwiftTest.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 2E06152F2DDE823100F73A30;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2E0615652DDE841400F73A30 /* XCRemoteSwiftPackageReference "rename-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2E0615392DDE823100F73A30 /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E0615652DDE841400F73A30 /* XCRemoteSwiftPackageReference "rename-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andre-statsig/rename-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E0615662DDE841400F73A30 /* RenameKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E0615652DDE841400F73A30 /* XCRemoteSwiftPackageReference "rename-sdk" */;
+			productName = RenameKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E0615302DDE823100F73A30 /* Project object */;
 }
